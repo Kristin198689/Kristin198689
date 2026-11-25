@@ -13,12 +13,24 @@
   </defs>
   <rect width="1280" height="340" fill="#0b0b0c"/>
   <g fill="none" stroke="#ffffff" stroke-opacity="0.07">
-    <circle cx="1040" cy="170" r="70"/><circle cx="1040" cy="170" r="130"/><circle cx="1040" cy="170" r="195"/>
-    <circle cx="1040" cy="170" r="265"/><circle cx="1040" cy="170" r="340"/><circle cx="1040" cy="170" r="420"/>
+    <circle cx="1040" cy="170" r="70"><animate attributeName="r" values="70;86;70" dur="6s" repeatCount="indefinite"/></circle><circle cx="1040" cy="170" r="130"><animate attributeName="r" values="130;150;130" dur="6s" begin="0.6s" repeatCount="indefinite"/></circle><circle cx="1040" cy="170" r="195"><animate attributeName="r" values="195;216;195" dur="6s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="170" r="265"><animate attributeName="r" values="265;286;265" dur="6s" begin="1.8s" repeatCount="indefinite"/></circle><circle cx="1040" cy="170" r="340"><animate attributeName="r" values="340;362;340" dur="6s" begin="2.4s" repeatCount="indefinite"/></circle><circle cx="1040" cy="170" r="420"><animate attributeName="r" values="420;444;420" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
   </g>
-  <circle cx="1040" cy="170" r="190" fill="url(#glow)"/>
-  <path d="M1040 92c34 0 62 30 62 70 0 46-30 84-66 84-38 0-66-32-66-74 0-44 34-80 70-80z" fill="url(#drop)"/>
-  <path d="M1004 128c14-14 34-20 50-14" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1040" cy="170" r="190" fill="url(#glow)"><animate attributeName="r" values="180;212;180" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;1;0.8" dur="5s" repeatCount="indefinite"/></circle>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 14 -18; -10 -6; -16 14; 8 10; 0 0" dur="11s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.2;0.45;0.7;0.9;1"/>
+    <animateTransform attributeName="transform" additive="sum" type="rotate" values="0 1040 170; 7 1040 170; -5 1040 170; 0 1040 170" dur="9s" repeatCount="indefinite"/>
+    <path fill="url(#drop)" d="M1040 92c34 0 62 30 62 70 0 46-30 84-66 84-38 0-66-32-66-74 0-44 34-80 70-80z">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.33;0.66;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"
+        values="M1040 92c34 0 62 30 62 70 0 46-30 84-66 84-38 0-66-32-66-74 0-44 34-80 70-80z;
+                M1042 88c38 2 66 34 60 76-5 44-34 82-70 80-38-2-64-36-62-76 3-44 36-82 72-80z;
+                M1038 96c32-4 66 26 64 68-2 48-34 82-68 82-40 0-68-34-64-76 3-42 30-70 68-74z;
+                M1040 92c34 0 62 30 62 70 0 46-30 84-66 84-38 0-66-32-66-74 0-44 34-80 70-80z"/>
+    </path>
+    <path d="M1004 128c14-14 34-20 50-14" fill="none" stroke="#ffffff" stroke-opacity="0.75" stroke-width="5" stroke-linecap="round">
+      <animate attributeName="stroke-opacity" values="0.75;0.4;0.75" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
   <text x="72" y="110" fill="#8d8d93" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="4">PORTFOLIO · VOLODINA.DE</text>
   <text x="68" y="196" fill="#f4f4f0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-3">Christina Volodina</text>
   <text x="72" y="256" fill="#f4f4f0" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-style="italic" font-weight="400">full-stack web developer</text>
