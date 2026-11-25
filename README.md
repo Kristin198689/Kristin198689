@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://volodina.de/en"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-volodina.de-111111?style=for-the-badge"></a>
   <a href="https://volodina.de/en/hire"><img alt="For recruiters" src="https://img.shields.io/badge/For%20recruiters-the%2060%20second%20version-e0158f?style=for-the-badge"></a>
-  <img alt="Open to work" src="https://img.shields.io/badge/Open%20to%20work-remote%20worldwide-2ea44f?style=for-the-badge">
+  <a href="https://volodina.de/en#contact"><img alt="Open to work" src="https://img.shields.io/badge/Open%20to%20work-remote%20worldwide-2ea44f?style=for-the-badge"></a>
 </p>
 
 <p align="center">
