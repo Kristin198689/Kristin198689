@@ -82,7 +82,7 @@ Next.js App Router · React · strict TypeScript · CSS Modules · GSAP · Scrol
   </tr>
 </table>
 
-**More:** [Billyard](https://billyard-nu.vercel.app) · [Volodina Web Studio](https://volodina-web-studio-amber.vercel.app) · [Ibrahim Casino](https://ibrahim-casino.vercel.app) · [this portfolio](https://volodina.de) · all projects with live links on [volodina.de/en/work](https://volodina.de/en/work)
+**More:** [Billyard](https://billyard-nu.vercel.app) · [Volodina Web Studio](https://volodina-web-studio-amber.vercel.app) · [this portfolio](https://volodina.de) · all projects with live links on [volodina.de/en/work](https://volodina.de/en/work)
 
 ## 🔒 Source code
 
