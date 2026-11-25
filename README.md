@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.svg" alt="Christina Volodina · full-stack web developer" width="100%">
+  <img src="images/banner.webp" alt="Christina Volodina · full-stack web developer" width="100%">
 </p>
 
 <p align="center">
